@@ -5,6 +5,8 @@
 
 /* ---------- 1. Custom Properties ---------- */
 :root {
+  color-scheme: dark;
+
   /* Colors */
   --color-primary: #D4600A;
   --color-primary-hover: #B8520A;
@@ -1049,7 +1051,7 @@ p {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(212, 96, 10, 0.15), rgba(30, 95, 140, 0.15));
+  background: linear-gradient(135deg, rgba(212, 96, 10, 0.2), rgba(30, 95, 140, 0.2));
 }
 
 .page-header .container {

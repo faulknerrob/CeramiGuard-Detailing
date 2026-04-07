@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schedule Mobile Detailing &amp; Ceramic Coating | CeramiGuard Detailing | San Antonio</title>
+  <meta name="description" content="Book your mobile ceramic coating, detailing, paint correction, or dent repair in San Antonio, TX. Easy online scheduling. CeramiGuard comes to you.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "index.html" },
+      { "@type": "ListItem", "position": 2, "name": "Schedule Your Service", "item": "schedule.html" }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- Navigation -->
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="container">
+      <a href="index.html" class="navbar__logo" aria-label="CeramiGuard Detailing Home">
+        <span>Cerami</span>Guard
+      </a>
+      <div class="navbar__links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="ceramic-coating.html">Ceramic Coating</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+        <a href="schedule.html" class="btn btn--primary active">Schedule Service</a>
+      </div>
+      <button class="navbar__toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+      </button>
+    </div>
+    <div class="navbar__mobile-menu" aria-label="Mobile navigation">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="ceramic-coating.html">Ceramic Coating</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+      <a href="schedule.html" class="active">Schedule Service</a>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol class="breadcrumb__list">
+          <li class="breadcrumb__item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb__separator" aria-hidden="true">/</li>
+          <li class="breadcrumb__item" aria-current="page">Schedule Your Service</li>
+        </ol>
+      </nav>
+      <h1>Schedule Your Mobile Detailing or Ceramic Coating Service</h1>
+      <p>Ready to protect your investment? Booking with CeramiGuard Detailing is easy. Fill out the form below and we'll confirm your appointment within 24 hours.</p>
+    </div>
+  </section>
+
+  <main id="main">
+    <!-- How It Works -->
+    <section class="section">
+      <div class="container">
+        <div class="text-center">
+          <h2>How It Works</h2>
+        </div>
+        <div class="process-steps" style="margin-top: var(--space-6); max-width: 700px; margin-left: auto; margin-right: auto;">
+          <div class="process-step">
+            <div class="process-step__number">1</div>
+            <div class="process-step__content">
+              <h3>Choose Your Service</h3>
+              <p>Select from ceramic coating, mobile detailing, paint correction, dent repair, or vinyl wrap.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="process-step__number">2</div>
+            <div class="process-step__content">
+              <h3>Pick Your Date &amp; Time</h3>
+              <p>Choose a day and time window that works for your schedule.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="process-step__number">3</div>
+            <div class="process-step__content">
+              <h3>Tell Us About Your Vehicle</h3>
+              <p>Year, make, model, color, and any specific concerns or areas of focus.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="process-step__number">4</div>
+            <div class="process-step__content">
+              <h3>Confirm Your Location</h3>
+              <p>Provide the address where you'd like the service performed.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="process-step__number">5</div>
+            <div class="process-step__content">
+              <h3>We'll Confirm</h3>
+              <p>You'll receive a confirmation with service details, pricing, and your technician's arrival window.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Booking Form -->
+    <section class="section section--surface">
+      <div class="container">
+        <div class="text-center">
+          <h2>Book Your Appointment</h2>
+          <p>We come to your home, office, or any location in the greater San Antonio, New Braunfels, Boerne, Schertz, and Seguin area.</p>
+        </div>
+        <form id="schedule-form" action="#" method="POST" novalidate style="max-width: 800px; margin: var(--space-6) auto 0;">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="schedule-name" class="form-label">Full Name *</label>
+              <input type="text" id="schedule-name" name="name" class="form-input" required placeholder="John Smith">
+              <p class="form-error" id="schedule-name-error">Please enter your full name.</p>
+            </div>
+            <div class="form-group">
+              <label for="schedule-phone" class="form-label">Phone Number *</label>
+              <input type="tel" id="schedule-phone" name="phone" class="form-input" required placeholder="(210) 555-0123">
+              <p class="form-error" id="schedule-phone-error">Please enter a valid phone number.</p>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="schedule-email" class="form-label">Email Address *</label>
+              <input type="email" id="schedule-email" name="email" class="form-input" required placeholder="john@example.com">
+              <p class="form-error" id="schedule-email-error">Please enter a valid email address.</p>
+            </div>
+            <div class="form-group">
+              <label for="schedule-service" class="form-label">Service Requested *</label>
+              <select id="schedule-service" name="service" class="form-select" required>
+                <option value="">Select a Service</option>
+                <option value="ceramic-coating">Ceramic Coating</option>
+                <option value="mobile-detailing">Mobile Detailing</option>
+                <option value="paint-correction">Paint Correction</option>
+                <option value="dent-repair">Dent Repair</option>
+                <option value="vinyl-wrap">Vinyl Wrap</option>
+              </select>
+              <p class="form-error" id="schedule-service-error">Please select a service.</p>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="schedule-vehicle" class="form-label">Vehicle Info (Year / Make / Model / Color) *</label>
+            <input type="text" id="schedule-vehicle" name="vehicle" class="form-input" required placeholder="2024 Toyota Camry, White">
+            <p class="form-error" id="schedule-vehicle-error">Please enter your vehicle information.</p>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="schedule-date" class="form-label">Preferred Date *</label>
+              <input type="date" id="schedule-date" name="date" class="form-input" required>
+              <p class="form-error" id="schedule-date-error">Please select a preferred date.</p>
+            </div>
+            <div class="form-group">
+              <label for="schedule-time" class="form-label">Preferred Time</label>
+              <select id="schedule-time" name="time" class="form-select">
+                <option value="">Select a Time</option>
+                <option value="morning">Morning (8 AM – 12 PM)</option>
+                <option value="afternoon">Afternoon (12 PM – 4 PM)</option>
+                <option value="evening">Evening (4 PM – 7 PM)</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="schedule-location" class="form-label">Service Location Address *</label>
+            <input type="text" id="schedule-location" name="location" class="form-input" required placeholder="123 Main St, San Antonio, TX 78201">
+            <p class="form-error" id="schedule-location-error">Please enter your service location.</p>
+          </div>
+          <div class="form-group">
+            <label for="schedule-notes" class="form-label">Additional Notes</label>
+            <textarea id="schedule-notes" name="notes" class="form-textarea" rows="4" placeholder="Any specific concerns, areas of focus, or questions..."></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--lg btn--full">Book Now</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- What to Expect -->
+    <section class="section">
+      <div class="container" style="max-width: 800px;">
+        <h2>What to Expect</h2>
+        <p>On the day of your appointment, your CeramiGuard technician will arrive with all equipment, water, and supplies needed to complete the service on-site. We'll do a quick walk-around with you before starting, and a final inspection together when the job is done. Payment is collected upon completion.</p>
+
+        <h3 style="margin-top: var(--space-6);">Cancellation Policy</h3>
+        <p>We understand schedules change. We ask for at least 24 hours' notice for cancellations or reschedules. Same-day cancellations may be subject to a fee.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand"><span>Cerami</span>Guard</div>
+          <p class="footer__tagline">Professional mobile ceramic coating and auto detailing in San Antonio, TX. We come to you.</p>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Services</h4>
+          <ul class="footer__links">
+            <li><a href="ceramic-coating.html">Ceramic Coating</a></li>
+            <li><a href="services.html">Mobile Detailing</a></li>
+            <li><a href="services.html">Paint Correction</a></li>
+            <li><a href="services.html">Dent Repair</a></li>
+            <li><a href="services.html">Vinyl Wraps</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Company</h4>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="schedule.html">Schedule Service</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Service Area</h4>
+          <ul class="footer__links">
+            <li><a href="contact.html">San Antonio</a></li>
+            <li><a href="contact.html">New Braunfels</a></li>
+            <li><a href="contact.html">Boerne</a></li>
+            <li><a href="contact.html">Schertz</a></li>
+            <li><a href="contact.html">Seguin</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">&copy; 2026 CeramiGuard Detailing. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

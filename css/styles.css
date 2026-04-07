@@ -1,6 +1,6 @@
 /* ==========================================================================
    CeramiGuard Detailing — Stylesheet
-   Color Palette: Burnt Orange, Steel Blue, Silver, Gray
+   Color Palette: Dark Charcoal, Burnt Orange, Steel Blue
    ========================================================================== */
 
 /* ---------- 1. Custom Properties ---------- */
@@ -10,14 +10,14 @@
   --color-primary-hover: #B8520A;
   --color-secondary: #1E5F8C;
   --color-secondary-hover: #174A6E;
-  --color-accent-silver: #C0C0C0;
-  --color-surface: #F5F5F5;
-  --color-background: #FFFFFF;
-  --color-dark: #1C1C1E;
-  --color-text-primary: #1A1A1A;
-  --color-text-secondary: #6B7280;
+  --color-accent-silver: #A0A0A8;
+  --color-surface: #2A2A2E;
+  --color-background: #1C1C1E;
+  --color-dark: #121214;
+  --color-text-primary: #E8E8EB;
+  --color-text-secondary: #9CA3AF;
   --color-text-inverse: #FFFFFF;
-  --color-border: #E5E7EB;
+  --color-border: #3A3A3E;
   --color-success: #16A34A;
   --color-error: #DC2626;
   --color-warning: #F59E0B;
@@ -47,10 +47,10 @@
   --font-size-display: 3.052rem;/* ~49 px */
 
   /* Shadows */
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
-  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
-  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
-  --shadow-nav: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
+  --shadow-nav: 0 2px 8px rgba(0, 0, 0, 0.3);
 
   /* Misc */
   --radius-sm: 8px;
@@ -96,13 +96,13 @@ img {
 }
 
 a {
-  color: var(--color-secondary);
+  color: #3B8AC4;
   text-decoration: none;
   transition: color var(--transition-fast);
 }
 
 a:hover {
-  color: var(--color-secondary-hover);
+  color: #4FA0D8;
 }
 
 ul, ol {
@@ -412,14 +412,14 @@ p {
 }
 
 .btn--white {
-  background-color: var(--color-background);
+  background-color: #E8E8EB;
   color: var(--color-primary);
-  border-color: var(--color-background);
+  border-color: #E8E8EB;
 }
 
 .btn--white:hover {
-  background-color: var(--color-surface);
-  border-color: var(--color-surface);
+  background-color: #D0D0D5;
+  border-color: #D0D0D5;
   color: var(--color-primary-hover);
 }
 
@@ -566,7 +566,7 @@ p {
   font-family: var(--font-family);
   font-size: var(--font-size-body);
   color: var(--color-text-primary);
-  background: var(--color-background);
+  background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-sm);
   transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
@@ -583,7 +583,7 @@ p {
 .form-textarea:focus {
   outline: none;
   border-color: var(--color-secondary);
-  box-shadow: 0 0 0 3px rgba(30, 95, 140, 0.15);
+  box-shadow: 0 0 0 3px rgba(30, 95, 140, 0.35);
 }
 
 .form-input.error,
@@ -612,7 +612,7 @@ p {
 /* ---------- 9. Hero ---------- */
 .hero {
   position: relative;
-  background: linear-gradient(135deg, var(--color-dark) 0%, #2C2C2E 100%);
+  background: linear-gradient(135deg, var(--color-dark) 0%, #1A1A1C 100%);
   color: var(--color-text-inverse);
   padding: var(--space-9) 0;
   overflow: hidden;
@@ -951,7 +951,7 @@ p {
   width: 40px;
   height: 40px;
   min-width: 40px;
-  background: rgba(212, 96, 10, 0.1);
+  background: rgba(212, 96, 10, 0.2);
   border-radius: var(--radius-sm);
   display: flex;
   align-items: center;
@@ -1038,7 +1038,7 @@ p {
 
 /* ---------- 19. Page Header ---------- */
 .page-header {
-  background: linear-gradient(135deg, var(--color-dark) 0%, #2C2C2E 100%);
+  background: linear-gradient(135deg, var(--color-dark) 0%, #1A1A1C 100%);
   color: var(--color-text-inverse);
   padding: var(--space-7) 0;
   position: relative;
